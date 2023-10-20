@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Cute+Font&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Cute+Font&display=swap');
+html{
+    background-color: bisque;
+    color:saddlebrown ;
+    font-family: 'Caveat', cursive;
+    /* font-family: 'Cute Font', cursive; */
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.card{
+    background-color:blanchedalmond ;
+    width: 200px;
+    height: 250px;
+    padding: 10px;
+    border-radius: 8px;
+    margin: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgb(0, 0, 0, 0.1);/*Sombra*/
+    transition: 0.3s;
+}
+.card:hover{
+    /* transform: translateY(20px); */
+    transform: scale(1.2);
+    border-radius: 8px;
+}
+.card img{
+    width: 120px;
+    height: 110px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+.card h2{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.card p{
+    font-size: 14px;
+}

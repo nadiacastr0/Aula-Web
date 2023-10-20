@@ -1,0 +1,42 @@
+html{
+    background-color:burlywood ;
+    color: bisque;
+    margin-top: 50px;
+    margin-left: 90px;
+}
+button{
+    background-color: saddlebrown;
+    color: bisque;    
+    border-radius: 20%;
+    padding: 10px;
+    border: none;
+    cursor: pointer ;
+    transition: background-color 0.3s;
+}
+button:hover{
+    background-color: blanchedalmond;
+    color: sienna;
+}
+.listaAnimais ul li{
+    color:crimson;
+}
+.listaCompras ul li{
+    color:sienna ;
+}
+.listaCores ul li:first-child{
+    color: blue;
+}
+.listaCores ul li:nth-child(2){
+    color: purple;
+}
+.listaCores ul li:nth-child(3){
+    color: red;
+}
+.listaCores ul li:nth-child(4){
+    color:deeppink ;
+}
+.listaCores ul li:nth-child(5){
+    color:green ;
+}
+
+/* even e odd */

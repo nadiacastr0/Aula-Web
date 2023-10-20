@@ -1,0 +1,43 @@
+html {
+    background-color: fuchsia;
+}
+.card{
+    background-color: aquamarine;
+    text-align: center;
+    margin: 30px;
+    margin-inline: 100px;
+    
+}
+.circulo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    transition: 0.2s;
+}
+.circulo:hover {
+    transform: scale(1.2);
+    border-radius: 0%;
+}
+h1{
+    color:white;
+    text-align: center;
+}
+.branco {
+    background-color: white;
+}
+.azul {
+    background-color: blue;
+}
+.rosa {
+    background-color: pink;
+}
+.roxo {
+    background-color: purple;
+}
+img {
+    width: 60px;
+    height: 60px;
+    border-radius: 60px;
+    background-color: black;    
+    border: 3px dotted black;
+}

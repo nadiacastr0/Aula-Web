@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #141414;
+  font-family: "Arial", Times, serif;
+}
+header {
+  background-color: #333;
+  padding-top: 1px;
+}
+
+/* .filme-principal {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) 100%),
+    url("img/mini10.jpg");
+  height: 500px;
+  background-size: cover;
+  background-position: right center;
+} */
+
+header nav ul {
+  margin: 20px;
+  text-align: left;
+}
+header nav li {
+  display: inline-block;
+  list-style-type: none;
+}
+header nav h2 {
+  padding: 15px;
+  color: #9109e5;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 40px;
+  text-shadow: 2px 2px 2px black;
+}
+header nav a {
+  text-decoration: none;
+  color: #aaa;
+  padding: 13px;
+  display: block;
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 2px;
+}
+header nav a:hover {
+  color: #fff;
+}
+main {
+  width: 90%;
+  max-width: 500px;
+  margin: auto;
+  background-size: cover;
+  background-position: right center;
+  padding: 20px;
+}
+.carousel {
+  display: flex;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+}
+.card {
+  flex: 0 0 100%;
+  margin-right: 20px;
+  padding: 20px;
+  scroll-snap-align: start;
+  color: white;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgb(0, 0, 0, 0.1); /*Sombra*/
+}
+.card img {
+  max-width: 50%;
+}
+.card h2 {
+  text-align: left;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.card p {
+  text-align: left;
+  font-size: 9px;
+}
+.carousel:hover {
+  transition: 0.3s;
+  /* transform: translateY(20px); */
+  transform: scale(1.2);
+  border-radius: 8px;
+}
+footer {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
